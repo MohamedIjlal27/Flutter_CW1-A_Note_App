@@ -1,16 +1,36 @@
-# simple_note_app
+# Simple Note App
 
-A new Flutter project.
+## Overview
+The Simple Note App is a Flutter-based application designed for creating, managing, and organizing notes. It provides a user-friendly interface for users to add, edit, and delete notes, as well as categorize them with labels. The app also supports image attachments and offers a clean, modern design.
+
+## Features
+- Create, edit, and delete notes
+- Organize notes with labels
+- Attach images to notes
+- Search functionality for quick access to notes
+- Dark mode support
+- Responsive design for various screen sizes
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- Flutter SDK (version >= 3.2.5)
+- Dart SDK
+- An IDE such as Android Studio, Visual Studio Code, or IntelliJ IDEA
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/simple_note_app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd simple_note_app
+   ```
+3. Install the dependencies:
+   ```bash
+   flutter pub get
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Running the App
+To run the app on an emulator or physical device, use the following command:

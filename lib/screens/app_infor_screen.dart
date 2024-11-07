@@ -42,6 +42,14 @@ class AppInforScreen extends StatelessWidget {
                 ),
               ],
             ),
+            UnorderedListWidget(
+              contentList: [
+                Content(
+                  content:
+                      'The codes are not fully owned by me; I referred to the official Flutter documentation to get some help to configure the providers, UI and other things: "https://docs.flutter.dev/ui".',
+                ),
+              ],
+            )
           ],
         ),
       ),
