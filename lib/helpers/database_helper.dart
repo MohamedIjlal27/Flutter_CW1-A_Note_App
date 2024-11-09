@@ -1,3 +1,7 @@
+// Flutter Documentation (Google), (2024) Persist data with SQLite.
+//Available at: https://flutter.dev/docs/cookbook/persistence/sqlite
+//(Accessed: 29 October 2024).
+
 import 'dart:async';
 
 import 'package:path/path.dart';
@@ -34,7 +38,8 @@ class DatabaseHelper {
       path,
       version: 1,
       onCreate: (db, version) async {
-        await db.execute('''
+        await db.execute(
+          '''
             CREATE TABLE $noteTable (
               ${NoteField.id} INTEGER PRIMARY KEY,
               ${NoteField.title} TEXT, 
@@ -44,14 +49,17 @@ class DatabaseHelper {
               ${NoteField.bgColor} INTEGER, 
               ${NoteField.createdTime} TEXT
             )
-          ''',);
+          ''',
+        );
 
-        await db.execute('''
+        await db.execute(
+          '''
             CREATE TABLE $labelTable (
               ${LabelField.id} INTEGER PRIMARY KEY AUTOINCREMENT,
               ${LabelField.title} TEXT
             )
-          ''',);
+          ''',
+        );
       },
     );
   }

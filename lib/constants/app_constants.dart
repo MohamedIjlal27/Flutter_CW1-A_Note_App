@@ -50,7 +50,6 @@ class TextStyleConstants {
     fontSize: 18,
     fontWeight: FontWeight.w400,
     color: ColorsConstant.textColor,
-    // overflow: TextOverflow.ellipsis,
   );
 
   static const contentStyle3 = TextStyle(
@@ -63,7 +62,6 @@ class TextStyleConstants {
   static const contentStyle4 = TextStyle(
     color: ColorsConstant.textColor,
     fontSize: 14,
-    // overflow: TextOverflow.ellipsis,
   );
 
   static const titleAppBarStyle = TextStyle(

@@ -1,3 +1,7 @@
+// Flutter Documentation (Google), (2024) Simple app state management.
+//Available at: https://flutter.dev/docs/data-and-backend/state-mgmt/simple
+//(Accessed: 28 October 2024).
+
 import 'package:flutter/material.dart';
 import '../helpers/note_database_helper.dart';
 import '../models/note.dart';
@@ -47,10 +51,6 @@ class NoteProvider with ChangeNotifier {
     final int n = _items.length;
     for (var i = 0; i < n; i++) {
       if (_items[i].label == content) {
-        //*  đoạn này mới đầu viết như này:
-        //! var newNote = item.copy(label: content);
-        //?  bảo sao mãi nó không chạy đúng, lú thật
-
         final newNote = _items[i].copy(label: '');
         _items[i] = newNote;
         await NoteDatabaseHelper.instance.updateRecord(newNote);

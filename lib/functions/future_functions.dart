@@ -11,10 +11,6 @@ import '../providers/label_provider.dart';
 import '../providers/note_provider.dart';
 
 Future refreshOrGetData(BuildContext context) async {
-  // * dùng kiểu này bị lỗi
-  // await context.read<NoteProvider>().fetchAndSet();
-  // context.read<LabelProvider>().fetchAndSet();
-
   await Provider.of<NoteProvider>(context, listen: false)
       .fetchAndSet()
       .whenComplete(() {

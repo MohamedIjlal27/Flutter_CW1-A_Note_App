@@ -1,3 +1,7 @@
+// Flutter Documentation (Google), (2024) Persist data with SQLite.
+//Available at: https://flutter.dev/docs/cookbook/persistence/sqlite
+//(Accessed: 29 October 2024).
+
 import '../models/note.dart';
 import 'database_helper.dart';
 

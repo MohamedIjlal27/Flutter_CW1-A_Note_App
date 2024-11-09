@@ -1,3 +1,7 @@
+// Flutter Documentation (Google), (2024) Simple app state management.
+//Available at: https://flutter.dev/docs/data-and-backend/state-mgmt/simple
+//(Accessed: 28 October 2024).
+
 import 'package:flutter/material.dart';
 import '../helpers/label_database_helper.dart';
 import '../models/label.dart';
