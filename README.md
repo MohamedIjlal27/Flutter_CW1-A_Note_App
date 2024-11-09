@@ -14,7 +14,7 @@ The Simple Note App is a Flutter-based application designed for creating, managi
 ## Getting Started
 
 ### Prerequisites
-- Flutter SDK (version >= 3.2.5)
+- Flutter sdk: '>=3.2.5 <4.0.0'
 - Dart SDK
 - An IDE such as Android Studio, Visual Studio Code, or IntelliJ IDEA
 
